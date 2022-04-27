@@ -1,0 +1,309 @@
+{
+  "Categorias": [
+    {
+      "Nivel": 1,
+      "NombreCategoria": "Categoria 1",
+      "Preguntas": [
+        {
+          "Id":  "1",
+          "Enunciado": "Pregunta 1",
+          "Opciones": [
+            "a",
+            "b",
+            "c",
+            "d"
+          ],
+          "Respuesta": "a"
+        },
+        {
+          "Id":  "2",
+          "Enunciado": "Pregunta 2",
+          "Opciones": [
+            "a",
+            "b",
+            "c",
+            "d"
+          ],
+          "Respuesta": "a"
+        },
+        {
+          "Id":  "3",
+          "Enunciado": "Pregunta 3",
+          "Opciones": [
+            "a",
+            "b",
+            "c",
+            "d"
+          ],
+          "Respuesta": "a"
+        },
+        {
+          "Id":  "4",
+          "Enunciado": "Pregunta 4",
+          "Opciones": [
+            "a",
+            "b",
+            "c",
+            "d"
+          ],
+          "Respuesta": "a"
+        },
+        {
+          "Id":  "5",
+          "Enunciado": "Pregunta 5",
+          "Opciones": [
+            "a",
+            "b",
+            "c",
+            "d"
+          ],
+          "Respuesta": "a"
+        }
+      ]
+    },
+    {
+      "Nivel": 2,
+      "NombreCategoria": "Categoria 2",
+      "Preguntas": [
+        {
+          "Id":  "1",
+          "Enunciado": "Pregunta 1",
+          "Opciones": [
+            "a",
+            "b",
+            "c",
+            "d"
+          ],
+          "Respuesta": "a"
+        },
+        {
+          "Id":  "2",
+          "Enunciado": "Pregunta 2",
+          "Opciones": [
+            "a",
+            "b",
+            "c",
+            "d"
+          ],
+          "Respuesta": "a"
+        },
+        {
+          "Id":  "3",
+          "Enunciado": "Pregunta 3",
+          "Opciones": [
+            "a",
+            "b",
+            "c",
+            "d"
+          ],
+          "Respuesta": "a"
+        },
+        {
+          "Id": "4",
+          "Enunciado": "Pregunta 4",
+          "Opciones": [
+            "a",
+            "b",
+            "c",
+            "d"
+          ],
+          "Respuesta": "a"
+        },
+        {
+          "Id": "5",
+          "Enunciado": "Pregunta 5",
+          "Opciones": [
+            "a",
+            "b",
+            "c",
+            "d"
+          ],
+          "Respuesta": "a"
+        }
+      ]
+    },
+    {
+      "Nivel": 3,
+      "NombreCategoria": "Categoria 3",
+      "Preguntas": [
+        {
+          "Id": "1",
+          "Enunciado": "Pregunta 1",
+          "Opciones": [
+            "a",
+            "b",
+            "c",
+            "d"
+          ],
+          "Respuesta": "a"
+        },
+        {
+          "Id":  "2",
+          "Enunciado": "Pregunta 2",
+          "Opciones": [
+            "a",
+            "b",
+            "c",
+            "d"
+          ],
+          "Respuesta": "a"
+        },
+        {
+          "Id":  "3",
+          "Enunciado": "Pregunta 3",
+          "Opciones": [
+            "a",
+            "b",
+            "c",
+            "d"
+          ],
+          "Respuesta": "a"
+        },
+        {
+          "Id": "4",
+          "Enunciado": "Pregunta 4",
+          "Opciones": [
+            "a",
+            "b",
+            "c",
+            "d"
+          ],
+          "Respuesta": "a"
+        },
+        {
+          "Id": "5",
+          "Enunciado": "Pregunta 5",
+          "Opciones": [
+            "a",
+            "b",
+            "c",
+            "d"
+          ],
+          "Respuesta": "a"
+        }
+      ]
+    },
+    {
+      "Nivel": 4,
+      "NombreCategoria": "Categoria 4",
+      "Preguntas": [
+        {
+          "Id": "1",
+          "Enunciado": "Pregunta 1",
+          "Opciones": [
+            "a",
+            "b",
+            "c",
+            "d"
+          ],
+          "Respuesta": "a"
+        },
+        {
+          "Id": "2",
+          "Enunciado": "Pregunta 2",
+          "Opciones": [
+            "a",
+            "b",
+            "c",
+            "d"
+          ],
+          "Respuesta": "a"
+        },
+        {
+          "Id": "3",
+          "Enunciado": "Pregunta 3",
+          "Opciones": [
+            "a",
+            "b",
+            "c",
+            "d"
+          ],
+          "Respuesta": "a"
+        },
+        {
+          "Id": "4",
+          "Enunciado": "Pregunta 4",
+          "Opciones": [
+            "a",
+            "b",
+            "c",
+            "d"
+          ],
+          "Respuesta": "a"
+        },
+        {
+          "Id": "5",
+          "Enunciado": "Pregunta 5",
+          "Opciones": [
+            "a",
+            "b",
+            "c",
+            "d"
+          ],
+          "Respuesta": "a"
+        }
+      ]
+    },
+    {
+      "Nivel": 5,
+      "NombreCategoria": "Categoria 5",
+      "Preguntas": [
+        {
+          "Id": "1",
+          "Enunciado": "Pregunta 1",
+          "Opciones": [
+            "a",
+            "b",
+            "c",
+            "d"
+          ],
+          "Respuesta": "a"
+        },
+        {
+          "Id": "2",
+          "Enunciado": "Pregunta 2",
+          "Opciones": [
+            "a",
+            "b",
+            "c",
+            "d"
+          ],
+          "Respuesta": "a"
+        },
+        {
+          "Id": "3",
+          "Enunciado": "Pregunta 3",
+          "Opciones": [
+            "a",
+            "b",
+            "c",
+            "d"
+          ],
+          "Respuesta": "a"
+        },
+        {
+          "Id": "4",
+          "Enunciado": "Pregunta 4",
+          "Opciones": [
+            "a",
+            "b",
+            "c",
+            "d"
+          ],
+          "Respuesta": "a"
+        },
+        {
+          "Id": "5",
+          "Enunciado": "Pregunta 5",
+          "Opciones": [
+            "hola",
+            "b",
+            "c",
+            "d"
+          ],
+          "Respuesta": "hola"
+        }
+      ]
+    }
+  ]
+}
