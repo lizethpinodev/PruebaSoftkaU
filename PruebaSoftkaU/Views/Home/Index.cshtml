@@ -66,14 +66,6 @@
                                     Nivel 5
                                 </a>
                             </li>
-                            <li>
-                                <a href="#final" data-toggle="tab">
-                                    <div class="icon-circle">
-                                        <i class="ti-map"></i>
-                                    </div>
-                                    Final
-                                </a>
-                            </li>
                         </ul>
                     </div>
                     <div class="tab-content">
@@ -83,7 +75,7 @@
                                 <div class="col-md-10 col-md-offset-1">
                                     <div class="form-group">
                                         <label>Nombre <small>(obligatorio)</small></label>
-                                        <input name="firstname" type="text" class="form-control" placeholder="">
+                                        <input name="nombre" id="nombre" type="text" class="form-control" placeholder="">
                                     </div>
                                 </div>
                             </div>
@@ -118,182 +110,152 @@
                                             </td>
                                         </tr>
                                     </table>
+                                    <div class="row col-md-4 col-md-offset-4">
+                                        <input type='button' onclick="validarRespuesta(this)"  class='btn btn-responder btn-fill btn-warning btn-wd' name='nivel1' value='Responder' disabled/>
+                                    </div>
                                 </div>
                             </div>
                         </div>
                         <div class="tab-pane" id="nivel2">
-                            <h5 class="info-text"> What are you doing? (checkboxes) </h5>
+                            <h5 class="info-text" name="enunciado">  </h5>
                             <div class="row">
                                 <div class="col-sm-8 col-sm-offset-2">
-                                    <div class="col-sm-4">
-                                        <div class="choice" data-toggle="wizard-checkbox">
-                                            <input type="checkbox" name="jobb" value="Design">
-                                            <div class="card card-checkboxes card-hover-effect">
-                                                <i class="ti-paint-roller"></i>
-                                                <p>Design</p>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="col-sm-4">
-                                        <div class="choice" data-toggle="wizard-checkbox">
-                                            <input type="checkbox" name="jobb" value="Code">
-                                            <div class="card card-checkboxes card-hover-effect">
-                                                <i class="ti-pencil-alt"></i>
-                                                <p>Code</p>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="col-sm-4">
-                                        <div class="choice" data-toggle="wizard-checkbox">
-                                            <input type="checkbox" name="jobb" value="Develop">
-                                            <div class="card card-checkboxes card-hover-effect">
-                                                <i class="ti-star"></i>
-                                                <p>Develop</p>
-                                            </div>
-                                        </div>
+                                    <table border="0">
+                                        <tr>
+                                            <td>
+                                                <input type="radio" id="nivel2A" name="nivel2" value="" />
+                                                <label for="nivel2A">A. <span name="value"></span></label>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td>
+                                                <input type="radio" id="nivel2B" name="nivel2" value="" />
+                                                <label for="nivel2B">B. <span name="value"></span></label>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td>
+                                                <input type="radio" id="nivel2C" name="nivel2" value="" />
+                                                <label for="nivel2C">C. <span name="value"></span></label>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td>
+                                                <input type="radio" id="nivel2D" name="nivel2" value="" />
+                                                <label for="nivel2D">D. <span name="value"></span></label>
+                                            </td>
+                                        </tr>
+                                    </table>
+                                    <div class="row col-md-4 col-md-offset-4">
+                                        <input type='button' onclick="validarRespuesta(this)" class='btn btn-responder btn-fill btn-warning btn-wd' name='nivel2' value='Responder' disabled/>
                                     </div>
                                 </div>
                             </div>
                         </div>
                         <div class="tab-pane" id="nivel3">
-                            <h5 class="info-text"> What are you doing? (checkboxes) </h5>
+                            <h5 class="info-text" name="enunciado">  </h5>
                             <div class="row">
                                 <div class="col-sm-8 col-sm-offset-2">
-                                    <div class="col-sm-4">
-                                        <div class="choice" data-toggle="wizard-checkbox">
-                                            <input type="checkbox" name="jobb" value="Design">
-                                            <div class="card card-checkboxes card-hover-effect">
-                                                <i class="ti-paint-roller"></i>
-                                                <p>Design</p>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="col-sm-4">
-                                        <div class="choice" data-toggle="wizard-checkbox">
-                                            <input type="checkbox" name="jobb" value="Code">
-                                            <div class="card card-checkboxes card-hover-effect">
-                                                <i class="ti-pencil-alt"></i>
-                                                <p>Code</p>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="col-sm-4">
-                                        <div class="choice" data-toggle="wizard-checkbox">
-                                            <input type="checkbox" name="jobb" value="Develop">
-                                            <div class="card card-checkboxes card-hover-effect">
-                                                <i class="ti-star"></i>
-                                                <p>Develop</p>
-                                            </div>
-                                        </div>
+                                    <table border="0">
+                                        <tr>
+                                            <td>
+                                                <input type="radio" id="nivel3A" name="nivel3" value="" />
+                                                <label for="nivel3A">A. <span name="value"></span></label>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td>
+                                                <input type="radio" id="nivel3B" name="nivel3" value="" />
+                                                <label for="nivel3B">B. <span name="value"></span></label>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td>
+                                                <input type="radio" id="nivel3C" name="nivel3" value="" />
+                                                <label for="nivel3C">C. <span name="value"></span></label>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td>
+                                                <input type="radio" id="nivel3D" name="nivel3" value="" />
+                                                <label for="nivel3D">D. <span name="value"></span></label>
+                                            </td>
+                                        </tr>
+                                    </table>
+                                    <div class="row col-md-4 col-md-offset-4">
+                                        <input type='button' onclick="validarRespuesta(this)" class='btn btn-responder btn-fill btn-warning btn-wd' name='nivel3' value='Responder' disabled/>
                                     </div>
                                 </div>
                             </div>
                         </div>
                         <div class="tab-pane" id="nivel4">
-                            <h5 class="info-text"> What are you doing? (checkboxes) </h5>
+                            <h5 class="info-text" name="enunciado">  </h5>
                             <div class="row">
                                 <div class="col-sm-8 col-sm-offset-2">
-                                    <div class="col-sm-4">
-                                        <div class="choice" data-toggle="wizard-checkbox">
-                                            <input type="checkbox" name="jobb" value="Design">
-                                            <div class="card card-checkboxes card-hover-effect">
-                                                <i class="ti-paint-roller"></i>
-                                                <p>Design</p>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="col-sm-4">
-                                        <div class="choice" data-toggle="wizard-checkbox">
-                                            <input type="checkbox" name="jobb" value="Code">
-                                            <div class="card card-checkboxes card-hover-effect">
-                                                <i class="ti-pencil-alt"></i>
-                                                <p>Code</p>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="col-sm-4">
-                                        <div class="choice" data-toggle="wizard-checkbox">
-                                            <input type="checkbox" name="jobb" value="Develop">
-                                            <div class="card card-checkboxes card-hover-effect">
-                                                <i class="ti-star"></i>
-                                                <p>Develop</p>
-                                            </div>
-                                        </div>
+                                    <table border="0">
+                                        <tr>
+                                            <td>
+                                                <input type="radio" id="nivel4A" name="nivel4" value="" />
+                                                <label for="nivel4A">A. <span name="value"></span></label>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td>
+                                                <input type="radio" id="nivel4B" name="nivel4" value="" />
+                                                <label for="nivel4B">B. <span name="value"></span></label>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td>
+                                                <input type="radio" id="nivel4C" name="nivel4" value="" />
+                                                <label for="nivel4C">C. <span name="value"></span></label>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td>
+                                                <input type="radio" id="nivel4D" name="nivel4" value="" />
+                                                <label for="nivel4D">D. <span name="value"></span></label>
+                                            </td>
+                                        </tr>
+                                    </table>
+                                    <div class="row col-md-4 col-md-offset-4">
+                                        <input type='button' onclick="validarRespuesta(this)" class='btn btn-responder btn-fill btn-warning btn-wd' name='nivel4' value='Responder' disabled/>
                                     </div>
                                 </div>
                             </div>
                         </div>
                         <div class="tab-pane" id="nivel5">
-                            <h5 class="info-text"> What are you doing? (checkboxes) </h5>
+                            <h5 class="info-text" name="enunciado">  </h5>
                             <div class="row">
                                 <div class="col-sm-8 col-sm-offset-2">
-                                    <div class="col-sm-4">
-                                        <div class="choice" data-toggle="wizard-checkbox">
-                                            <input type="checkbox" name="jobb" value="Design">
-                                            <div class="card card-checkboxes card-hover-effect">
-                                                <i class="ti-paint-roller"></i>
-                                                <p>Design</p>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="col-sm-4">
-                                        <div class="choice" data-toggle="wizard-checkbox">
-                                            <input type="checkbox" name="jobb" value="Code">
-                                            <div class="card card-checkboxes card-hover-effect">
-                                                <i class="ti-pencil-alt"></i>
-                                                <p>Code</p>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="col-sm-4">
-                                        <div class="choice" data-toggle="wizard-checkbox">
-                                            <input type="checkbox" name="jobb" value="Develop">
-                                            <div class="card card-checkboxes card-hover-effect">
-                                                <i class="ti-star"></i>
-                                                <p>Develop</p>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="tab-pane" id="final">
-                            <div class="row">
-                                <div class="col-sm-12">
-                                    <h5 class="info-text"> Are you living in a nice area? </h5>
-                                </div>
-                                <div class="col-sm-7 col-sm-offset-1">
-                                    <div class="form-group">
-                                        <label>Street Name</label>
-                                        <input type="text" class="form-control" placeholder="5h Avenue">
-                                    </div>
-                                </div>
-                                <div class="col-sm-3">
-                                    <div class="form-group">
-                                        <label>Street Number</label>
-                                        <input type="text" class="form-control" placeholder="242">
-                                    </div>
-                                </div>
-                                <div class="col-sm-5 col-sm-offset-1">
-                                    <div class="form-group">
-                                        <label>City</label>
-                                        <input type="text" class="form-control" placeholder="New York...">
-                                    </div>
-                                </div>
-                                <div class="col-sm-5">
-                                    <div class="form-group">
-                                        <label>Country</label><br>
-                                        <select name="country" class="form-control">
-                                            <option value="Afghanistan"> Afghanistan </option>
-                                            <option value="Albania"> Albania </option>
-                                            <option value="Algeria"> Algeria </option>
-                                            <option value="American Samoa"> American Samoa </option>
-                                            <option value="Andorra"> Andorra </option>
-                                            <option value="Angola"> Angola </option>
-                                            <option value="Anguilla"> Anguilla </option>
-                                            <option value="Antarctica"> Antarctica </option>
-                                            <option value="...">...</option>
-                                        </select>
+                                    <table border="0">
+                                        <tr>
+                                            <td>
+                                                <input type="radio" id="nivel5A" name="nivel5" value="" />
+                                                <label for="nivel5A">A. <span name="value"></span></label>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td>
+                                                <input type="radio" id="nivel5B" name="nivel5" value="" />
+                                                <label for="nivel5B">B. <span name="value"></span></label>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td>
+                                                <input type="radio" id="nivel5C" name="nivel5" value="" />
+                                                <label for="nivel5C">C. <span name="value"></span></label>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td>
+                                                <input type="radio" id="nivel5D" name="nivel5" value="" />
+                                                <label for="nivel5D">D. <span name="value"></span></label>
+                                            </td>
+                                        </tr>
+                                    </table>
+                                    <div class="row col-md-4 col-md-offset-4">
+                                        <input type='button' onclick="validarRespuesta(this)" class='btn btn-responder btn-fill btn-warning btn-wd' name='nivel5' value='Responder' disabled/>
                                     </div>
                                 </div>
                             </div>
@@ -302,11 +264,12 @@
                     <div class="wizard-footer">
                         <div class="pull-right">
                             <input type='button' class='btn btn-next btn-fill btn-warning btn-wd' name='next' value='Continuar' />
+                            <input type='button' class='btn btn-iniciar btn-fill btn-warning btn-wd' name='next' value='Iniciar' />
                             <input type='button' class='btn btn-finish btn-fill btn-warning btn-wd' name='finish' value='Finalizar' />
                         </div>
 
                         <div class="pull-left">
-                            <input type='button' class='btn btn-previous btn-default btn-wd' name='previous' value='Abandonar' />
+                            <input type='button' onclick="abandonar()" class='btn btn-exit btn-default btn-wd' name='exit' value='Abandonar' />
                         </div>
                         <div class="clearfix"></div>
                     </div>

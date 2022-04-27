@@ -11,5 +11,6 @@ namespace PruebaSoftkaU.Models
         public string Enunciado { get; set; }
         public List<string> Opciones { get; set; }
         public string Respuesta { get; set; }
+        public int Puntaje { get; set; }
     }
 }

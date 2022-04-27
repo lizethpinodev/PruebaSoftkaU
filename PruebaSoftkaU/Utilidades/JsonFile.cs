@@ -19,5 +19,10 @@ namespace PruebaSoftkaU.Utilidades
             }
             return text;
         }
+        public static void GuardarArchivoJson(string path, string content)
+        {
+            File.Delete(path);
+            File.WriteAllText(path, content); 
+        }
     }
 }

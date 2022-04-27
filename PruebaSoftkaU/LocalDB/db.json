@@ -3,305 +3,310 @@
     {
       "Nivel": 1,
       "NombreCategoria": "Categoria 1",
+      "Puntaje": "10",
       "Preguntas": [
         {
-          "Id":  "1",
-          "Enunciado": "Pregunta 1",
+          "Id": "1",
+          "Enunciado": "Animal domestico",
           "Opciones": [
-            "a",
-            "b",
-            "c",
-            "d"
+            "Perro",
+            "Elefante",
+            "Tiburon",
+            "Cocodrilo"
           ],
-          "Respuesta": "a"
+          "Respuesta": "Perro"
         },
         {
-          "Id":  "2",
-          "Enunciado": "Pregunta 2",
+          "Id": "2",
+          "Enunciado": "Animal que vive bajo el agua",
           "Opciones": [
-            "a",
-            "b",
-            "c",
-            "d"
+            "Caballo",
+            "Loro",
+            "Ballena",
+            "Pajaro"
           ],
-          "Respuesta": "a"
+          "Respuesta": "Ballena"
         },
         {
-          "Id":  "3",
-          "Enunciado": "Pregunta 3",
+          "Id": "3",
+          "Enunciado": "Animal que tiene la capacidad de volar",
           "Opciones": [
-            "a",
-            "b",
-            "c",
-            "d"
+            "Delfin",
+            "Paloma",
+            "Tigre",
+            "Tortuga"
           ],
-          "Respuesta": "a"
+          "Respuesta": "Paloma"
         },
         {
-          "Id":  "4",
-          "Enunciado": "Pregunta 4",
+          "Id": "4",
+          "Enunciado": "Animal vegetariano",
           "Opciones": [
-            "a",
-            "b",
-            "c",
-            "d"
+            "Tiburon",
+            "Leon",
+            "Tigre",
+            "Jirafa"
           ],
-          "Respuesta": "a"
+          "Respuesta": "Jirafa"
         },
         {
-          "Id":  "5",
-          "Enunciado": "Pregunta 5",
+          "Id": "5",
+          "Enunciado": "Animal considerado en historias fantasticas como el rey de la selva",
           "Opciones": [
-            "a",
-            "b",
-            "c",
-            "d"
+            "Leon",
+            "Chimpance",
+            "Hormiga",
+            "Grillo"
           ],
-          "Respuesta": "a"
+          "Respuesta": "Leon"
         }
       ]
     },
     {
       "Nivel": 2,
       "NombreCategoria": "Categoria 2",
+      "Puntaje": "15",
       "Preguntas": [
         {
-          "Id":  "1",
-          "Enunciado": "Pregunta 1",
+          "Id": "1",
+          "Enunciado": "Instrumento musical de cuerda",
           "Opciones": [
-            "a",
-            "b",
-            "c",
-            "d"
+            "Trompeta",
+            "Redoblante",
+            "Guitarra",
+            "Maraca"
           ],
-          "Respuesta": "a"
+          "Respuesta": "Guitarra"
         },
         {
-          "Id":  "2",
-          "Enunciado": "Pregunta 2",
+          "Id": "2",
+          "Enunciado": "Genero musical tradicional de Colombia",
           "Opciones": [
-            "a",
-            "b",
-            "c",
-            "d"
+            "Vallenato",
+            "Electronica",
+            "Flamenco",
+            "Tango"
           ],
-          "Respuesta": "a"
+          "Respuesta": "Vallenato"
         },
         {
-          "Id":  "3",
-          "Enunciado": "Pregunta 3",
+          "Id": "3",
+          "Enunciado": "Nombre de elemento para tocar bateria",
           "Opciones": [
-            "a",
-            "b",
-            "c",
-            "d"
+            "Maceta",
+            "Baqueta",
+            "Golpeador",
+            "Pluma"
           ],
-          "Respuesta": "a"
+          "Respuesta": "Baqueta"
         },
         {
           "Id": "4",
-          "Enunciado": "Pregunta 4",
+          "Enunciado": "Genero musical considerado como urbano",
           "Opciones": [
-            "a",
-            "b",
-            "c",
-            "d"
+            "Merengue",
+            "Salsa",
+            "Tango",
+            "Rap"
           ],
-          "Respuesta": "a"
+          "Respuesta": "Rap"
         },
         {
           "Id": "5",
-          "Enunciado": "Pregunta 5",
+          "Enunciado": "Cantante de musica nacionalidad colombiana",
           "Opciones": [
-            "a",
-            "b",
-            "c",
-            "d"
+            "Jorge Celedon",
+            "Daddy Yankee",
+            "Juan Gabriel",
+            "Michael Jackson"
           ],
-          "Respuesta": "a"
+          "Respuesta": "Jorge Celedon"
         }
       ]
     },
     {
       "Nivel": 3,
       "NombreCategoria": "Categoria 3",
+      "Puntaje": "20",
       "Preguntas": [
         {
           "Id": "1",
-          "Enunciado": "Pregunta 1",
+          "Enunciado": "En ingles: Me gusta la programacion",
           "Opciones": [
-            "a",
-            "b",
-            "c",
-            "d"
+            "I like to investigate",
+            "I like fun",
+            "I like programming",
+            "I like to drive"
           ],
-          "Respuesta": "a"
+          "Respuesta": "I like programming"
         },
         {
-          "Id":  "2",
-          "Enunciado": "Pregunta 2",
+          "Id": "2",
+          "Enunciado": "El presente progresivo en ingles",
           "Opciones": [
-            "a",
-            "b",
-            "c",
-            "d"
+            "Utiliza el gerundio ing al final del verbo",
+            "Utiliza el gerundio gin al final del verbo",
+            "Utiliza el gerundio nig al final del verbo",
+            "Ninguna de las opciones es correcta"
           ],
-          "Respuesta": "a"
+          "Respuesta": "Utiliza el gerundio ing al final del verbo"
         },
         {
-          "Id":  "3",
-          "Enunciado": "Pregunta 3",
+          "Id": "3",
+          "Enunciado": "El ingles es un idioma originario de",
           "Opciones": [
-            "a",
-            "b",
-            "c",
-            "d"
+            "USA",
+            "Germania",
+            "Britania",
+            "Inglaterra"
           ],
-          "Respuesta": "a"
+          "Respuesta": "Germania"
         },
         {
           "Id": "4",
-          "Enunciado": "Pregunta 4",
+          "Enunciado": "El ingles es",
           "Opciones": [
-            "a",
-            "b",
-            "c",
-            "d"
+            "El segundo idioma mas hablado del mundo",
+            "El tercer idioma mas hablado del mundo",
+            "El cuarto idioma mas hablado del mundo",
+            "El idioma mas hablado del mundo"
           ],
-          "Respuesta": "a"
+          "Respuesta": "El idioma mas hablado del mundo"
         },
         {
           "Id": "5",
-          "Enunciado": "Pregunta 5",
+          "Enunciado": "La forma correcta de expresar gusto de conocer a alguien en ingles es",
           "Opciones": [
-            "a",
-            "b",
-            "c",
-            "d"
+            "Nice to meet you",
+            "Thank you",
+            "My name is xxx",
+            "What its your name"
           ],
-          "Respuesta": "a"
+          "Respuesta": "Nice to meet you"
         }
       ]
     },
     {
       "Nivel": 4,
       "NombreCategoria": "Categoria 4",
+      "Puntaje": "25",
       "Preguntas": [
         {
           "Id": "1",
-          "Enunciado": "Pregunta 1",
+          "Enunciado": "Cantidad de departamentos en colombia",
           "Opciones": [
-            "a",
-            "b",
-            "c",
-            "d"
+            "31",
+            "27",
+            "32",
+            "41"
           ],
-          "Respuesta": "a"
+          "Respuesta": "32"
         },
         {
           "Id": "2",
-          "Enunciado": "Pregunta 2",
+          "Enunciado": "Capital de Mongolia",
           "Opciones": [
-            "a",
-            "b",
-            "c",
-            "d"
+            "Ulan Bator",
+            "Otawa",
+            "Washington",
+            "Bogotá"
           ],
-          "Respuesta": "a"
+          "Respuesta": "Ulan Bator"
         },
         {
           "Id": "3",
-          "Enunciado": "Pregunta 3",
+          "Enunciado": "En que continente se encuentra ubicado Mexico",
           "Opciones": [
-            "a",
-            "b",
-            "c",
-            "d"
+            "Centro America",
+            "Centro y Sur America",
+            "Norte America",
+            "Sur America"
           ],
-          "Respuesta": "a"
+          "Respuesta": "Centro y Sur America"
         },
         {
           "Id": "4",
-          "Enunciado": "Pregunta 4",
+          "Enunciado": "Cual es el pais mas grande del mundo",
           "Opciones": [
-            "a",
-            "b",
-            "c",
-            "d"
+            "China",
+            "Estados Unidos",
+            "Canada",
+            "Rusia"
           ],
-          "Respuesta": "a"
+          "Respuesta": "Rusia"
         },
         {
           "Id": "5",
-          "Enunciado": "Pregunta 5",
+          "Enunciado": "El rio mas largo de colombia es",
           "Opciones": [
-            "a",
-            "b",
-            "c",
-            "d"
+            "Rio Magdalena",
+            "Rio Medellin",
+            "Rio Cauca",
+            "Rio Sucio"
           ],
-          "Respuesta": "a"
+          "Respuesta": "Rio Magdalena"
         }
       ]
     },
     {
       "Nivel": 5,
       "NombreCategoria": "Categoria 5",
+      "Puntaje": "30",
       "Preguntas": [
         {
           "Id": "1",
-          "Enunciado": "Pregunta 1",
+          "Enunciado": "Henry Morgan fallecio en el año",
           "Opciones": [
-            "a",
-            "b",
-            "c",
-            "d"
+            "1765",
+            "1813",
+            "1688",
+            "1972"
           ],
-          "Respuesta": "a"
+          "Respuesta": "1688"
         },
         {
           "Id": "2",
-          "Enunciado": "Pregunta 2",
+          "Enunciado": "Canada se convirtio en federacion independiente en el año",
           "Opciones": [
-            "a",
-            "b",
-            "c",
-            "d"
+            "1867",
+            "1869",
+            "1870",
+            "1868"
           ],
-          "Respuesta": "a"
+          "Respuesta": "1867"
         },
         {
           "Id": "3",
-          "Enunciado": "Pregunta 3",
+          "Enunciado": "Icono de la lucha contra el racismo en norteamerica",
           "Opciones": [
-            "a",
-            "b",
-            "c",
-            "d"
+            "Osama Bin Laden",
+            "Marthin Luther King",
+            "Barak Obama",
+            "Adolfo Hitler"
           ],
-          "Respuesta": "a"
+          "Respuesta": "Marthin Luther King"
         },
         {
           "Id": "4",
-          "Enunciado": "Pregunta 4",
+          "Enunciado": "Años que comprenden la segunda guerra mundial",
           "Opciones": [
-            "a",
-            "b",
-            "c",
-            "d"
+            "1926 y 1932",
+            "1915 y 1921",
+            "1926 y 1930",
+            "1939 y 1945"
           ],
-          "Respuesta": "a"
+          "Respuesta": "1939 y 1945"
         },
         {
           "Id": "5",
-          "Enunciado": "Pregunta 5",
+          "Enunciado": "No participo en la guerra fria",
           "Opciones": [
-            "hola",
-            "b",
-            "c",
-            "d"
+            "Canada",
+            "Estados Unidos",
+            "China",
+            "Union Sovietica"
           ],
-          "Respuesta": "hola"
+          "Respuesta": "Canada"
         }
       ]
     }

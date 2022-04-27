@@ -11,13 +11,12 @@ namespace PruebaSoftkaU.Controllers
     public class AplicacionController : ApiController
     {
         private readonly Categoria categoria = new Categoria();
-        [HttpGet]
-        public IHttpActionResult ObtenerCategorias()
+        private readonly Registro historia = new Registro();
+        private IHttpActionResult ObtenerCategorias()
         {
             return Ok(categoria.Listar());
         }
-        [HttpGet]
-        public IHttpActionResult CategoriaXNivel(int nivel)
+        private IHttpActionResult CategoriaXNivel(int nivel)
         {
             return Ok(categoria.ObtenerXNivel(nivel));
         }
@@ -27,7 +26,7 @@ namespace PruebaSoftkaU.Controllers
             var preguntas = categoria.ObtenerXNivel(nivel).Preguntas;
             Random random = new Random();
             int id = random.Next(1, 5);
-            return Ok(preguntas.Select(x => new Pregunta { Id = x.Id, Enunciado = x.Enunciado, Opciones = x.Opciones }).FirstOrDefault(x => x.Id == id));
+            return Ok(preguntas.Select(x => new Pregunta { Id = x.Id, Enunciado = x.Enunciado, Puntaje = categoria.ObtenerXNivel(nivel).Puntaje, Opciones = x.Opciones }).FirstOrDefault(x => x.Id == id));
         }
         [HttpGet]
         public IHttpActionResult ValidarRespuesta(int nivel, int idPregunta, string opcion)
@@ -39,6 +38,16 @@ namespace PruebaSoftkaU.Controllers
                 continuar = true;
             }
             return Ok(continuar);
+        }
+        [HttpPost]
+        public IHttpActionResult GuardarPuntaje(Registro registro)
+        {
+            if (!ModelState.IsValid)
+            {
+                return BadRequest();
+            }
+            historia.AgregarRegistro(registro);
+            return Ok();
         }
     }
 }

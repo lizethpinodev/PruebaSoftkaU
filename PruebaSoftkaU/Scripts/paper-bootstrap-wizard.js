@@ -65,12 +65,14 @@ $(document).ready(function () {
         'previousSelector': '.btn-previous',
 
         onNext: function (tab, navigation, index) {
+
             var $valid = $('.wizard-card form').valid();
             if (!$valid) {
                 $validator.focusInvalid();
                 return false;
             }
             nivel++;
+
         },
 
         onInit: function (tab, navigation, index) {
@@ -96,22 +98,28 @@ $(document).ready(function () {
         },
 
         onTabShow: function (tab, navigation, index) {
+
+            $('.btn-exit').removeAttr("disabled");
             var $total = navigation.find('li').length;
             var $current = index + 1;
+            var $wizard = navigation.closest('.wizard-card');
+            $($wizard).find('[name="exit"]').hide();
             if (index > 0 && index < 6) {
-                $.when(obtenerPreguntaxNivel(index)).done(function () {
-                });
+                $($wizard).find('[name="exit"]').show();
+                obtenerPreguntaxNivel(index);
             }
 
-            var $wizard = navigation.closest('.wizard-card');
 
             // If it's the last tab then hide the last button and show the finish instead
             if ($current >= $total) {
-                $($wizard).find('.btn-next').hide();
                 $($wizard).find('.btn-finish').show();
+                $($wizard).find('[name="exit"]').hide();
             } else {
-                $($wizard).find('.btn-next').show();
+                $($wizard).find('.btn-next').hide();
                 $($wizard).find('.btn-finish').hide();
+            }
+            if ($current > 1) {
+                $($wizard).find('.btn-iniciar').hide();
             }
 
             //update progress

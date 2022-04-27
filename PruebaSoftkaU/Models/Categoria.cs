@@ -12,6 +12,7 @@ namespace PruebaSoftkaU.Models
     {
         public int Nivel { get; set; }
         public string NombreCategoria { get; set; }
+        public int Puntaje { get; set; }
         public List<Pregunta> Preguntas { get; set; }
         //Obtener Todos
         public List<Categoria> Listar()
