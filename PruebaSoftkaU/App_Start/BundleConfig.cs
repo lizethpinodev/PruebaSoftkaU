@@ -19,11 +19,18 @@ namespace PruebaSoftkaU
             bundles.Add(new ScriptBundle("~/bundles/modernizr").Include(
                         "~/Scripts/modernizr-*"));
 
+            bundles.Add(new ScriptBundle("~/bundles/wizard").Include(
+                      "~/Scripts/jquery.bootstrap.wizard.js",
+                      "~/Scripts/paper-bootstrap-wizard.js"
+                      ));
+
             bundles.Add(new ScriptBundle("~/bundles/bootstrap").Include(
                       "~/Scripts/bootstrap.js"));
 
             bundles.Add(new StyleBundle("~/Content/css").Include(
                       "~/Content/bootstrap.css",
+                      "~/Content/paper-bootstrap-wizard.css",
+                      "~/Content/themify-icons.css",
                       "~/Content/site.css"));
         }
     }
