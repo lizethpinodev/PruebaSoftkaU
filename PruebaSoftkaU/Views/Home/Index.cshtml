@@ -4,7 +4,7 @@
 
 
 <div class="row">
-    <div class="col-sm-8 col-sm-offset-2">    
+    <div class="col-sm-8 col-sm-offset-2">
         <!--      Wizard container        -->
         <div class="wizard-container" style="padding-top:15px">
             <div class="card wizard-card" data-color="orange" id="wizardProfile">
@@ -20,63 +20,108 @@
                         </div>
                         <ul>
                             <li>
-                                <a href="#about" data-toggle="tab">
+                                <a href="#inicio" data-toggle="tab">
                                     <div class="icon-circle">
                                         <i class="ti-user"></i>
                                     </div>
-                                    About
                                 </a>
                             </li>
                             <li>
-                                <a href="#account" data-toggle="tab">
+                                <a href="#nivel1" data-toggle="tab">
                                     <div class="icon-circle">
                                         <i class="ti-settings"></i>
                                     </div>
-                                    Work
+                                    Nivel 1
                                 </a>
                             </li>
                             <li>
-                                <a href="#address" data-toggle="tab">
+                                <a href="#nivel2" data-toggle="tab">
+                                    <div class="icon-circle">
+                                        <i class="ti-settings"></i>
+                                    </div>
+                                    Nivel 2
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#nivel3" data-toggle="tab">
+                                    <div class="icon-circle">
+                                        <i class="ti-settings"></i>
+                                    </div>
+                                    Nivel 3
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#nivel4" data-toggle="tab">
+                                    <div class="icon-circle">
+                                        <i class="ti-settings"></i>
+                                    </div>
+                                    Nivel 4
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#nivel5" data-toggle="tab">
+                                    <div class="icon-circle">
+                                        <i class="ti-settings"></i>
+                                    </div>
+                                    Nivel 5
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#final" data-toggle="tab">
                                     <div class="icon-circle">
                                         <i class="ti-map"></i>
                                     </div>
-                                    Address
+                                    Final
                                 </a>
                             </li>
                         </ul>
                     </div>
                     <div class="tab-content">
-                        <div class="tab-pane" id="about">
+                        <div class="tab-pane" id="inicio">
                             <div class="row">
-                                <h5 class="info-text"> Please tell us more about yourself.</h5>
-                                <div class="col-sm-4 col-sm-offset-1">
-                                    <div class="picture-container">
-                                        <div class="picture">
-                                            <img src="assets/img/default-avatar.jpg" class="picture-src" id="wizardPicturePreview" title="" />
-                                            <input type="file" id="wizard-picture">
-                                        </div>
-                                        <h6>Choose Picture</h6>
-                                    </div>
-                                </div>
-                                <div class="col-sm-6">
+                                <h5 class="info-text"> Para iniciar escribe tu nombre</h5>
+                                <div class="col-md-10 col-md-offset-1">
                                     <div class="form-group">
-                                        <label>First Name <small>(required)</small></label>
-                                        <input name="firstname" type="text" class="form-control" placeholder="Andrew...">
-                                    </div>
-                                    <div class="form-group">
-                                        <label>Last Name <small>(required)</small></label>
-                                        <input name="lastname" type="text" class="form-control" placeholder="Smith...">
-                                    </div>
-                                </div>
-                                <div class="col-sm-10 col-sm-offset-1">
-                                    <div class="form-group">
-                                        <label>Email <small>(required)</small></label>
-                                        <input name="email" type="email" class="form-control" placeholder="andrew@creative-tim.com">
+                                        <label>Nombre <small>(obligatorio)</small></label>
+                                        <input name="firstname" type="text" class="form-control" placeholder="">
                                     </div>
                                 </div>
                             </div>
                         </div>
-                        <div class="tab-pane" id="account">
+                        <div class="tab-pane" id="nivel1">
+                            <h5 class="info-text" name="enunciado">  </h5>
+                            <div class="row">
+                                <div class="col-sm-8 col-sm-offset-2">
+                                    <table border="0">
+                                        <tr>
+                                            <td>
+                                                <input type="radio" id="nivel1A" name="nivel1" value="" />
+                                                <label for="nivel1A">A. <span name="value"></span></label>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td>
+                                                <input type="radio" id="nivel1B" name="nivel1" value="" />
+                                                <label for="nivel1B">B. <span name="value"></span></label>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td>
+                                                <input type="radio" id="nivel1C" name="nivel1" value="" />
+                                                <label for="nivel1C">C. <span name="value"></span></label>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td>
+                                                <input type="radio" id="nivel1D" name="nivel1" value="" />
+                                                <label for="nivel1D">D. <span name="value"></span></label>
+                                            </td>
+                                        </tr>
+                                    </table>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="tab-pane" id="nivel2">
                             <h5 class="info-text"> What are you doing? (checkboxes) </h5>
                             <div class="row">
                                 <div class="col-sm-8 col-sm-offset-2">
@@ -110,7 +155,109 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="tab-pane" id="address">
+                        <div class="tab-pane" id="nivel3">
+                            <h5 class="info-text"> What are you doing? (checkboxes) </h5>
+                            <div class="row">
+                                <div class="col-sm-8 col-sm-offset-2">
+                                    <div class="col-sm-4">
+                                        <div class="choice" data-toggle="wizard-checkbox">
+                                            <input type="checkbox" name="jobb" value="Design">
+                                            <div class="card card-checkboxes card-hover-effect">
+                                                <i class="ti-paint-roller"></i>
+                                                <p>Design</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-sm-4">
+                                        <div class="choice" data-toggle="wizard-checkbox">
+                                            <input type="checkbox" name="jobb" value="Code">
+                                            <div class="card card-checkboxes card-hover-effect">
+                                                <i class="ti-pencil-alt"></i>
+                                                <p>Code</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-sm-4">
+                                        <div class="choice" data-toggle="wizard-checkbox">
+                                            <input type="checkbox" name="jobb" value="Develop">
+                                            <div class="card card-checkboxes card-hover-effect">
+                                                <i class="ti-star"></i>
+                                                <p>Develop</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="tab-pane" id="nivel4">
+                            <h5 class="info-text"> What are you doing? (checkboxes) </h5>
+                            <div class="row">
+                                <div class="col-sm-8 col-sm-offset-2">
+                                    <div class="col-sm-4">
+                                        <div class="choice" data-toggle="wizard-checkbox">
+                                            <input type="checkbox" name="jobb" value="Design">
+                                            <div class="card card-checkboxes card-hover-effect">
+                                                <i class="ti-paint-roller"></i>
+                                                <p>Design</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-sm-4">
+                                        <div class="choice" data-toggle="wizard-checkbox">
+                                            <input type="checkbox" name="jobb" value="Code">
+                                            <div class="card card-checkboxes card-hover-effect">
+                                                <i class="ti-pencil-alt"></i>
+                                                <p>Code</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-sm-4">
+                                        <div class="choice" data-toggle="wizard-checkbox">
+                                            <input type="checkbox" name="jobb" value="Develop">
+                                            <div class="card card-checkboxes card-hover-effect">
+                                                <i class="ti-star"></i>
+                                                <p>Develop</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="tab-pane" id="nivel5">
+                            <h5 class="info-text"> What are you doing? (checkboxes) </h5>
+                            <div class="row">
+                                <div class="col-sm-8 col-sm-offset-2">
+                                    <div class="col-sm-4">
+                                        <div class="choice" data-toggle="wizard-checkbox">
+                                            <input type="checkbox" name="jobb" value="Design">
+                                            <div class="card card-checkboxes card-hover-effect">
+                                                <i class="ti-paint-roller"></i>
+                                                <p>Design</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-sm-4">
+                                        <div class="choice" data-toggle="wizard-checkbox">
+                                            <input type="checkbox" name="jobb" value="Code">
+                                            <div class="card card-checkboxes card-hover-effect">
+                                                <i class="ti-pencil-alt"></i>
+                                                <p>Code</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-sm-4">
+                                        <div class="choice" data-toggle="wizard-checkbox">
+                                            <input type="checkbox" name="jobb" value="Develop">
+                                            <div class="card card-checkboxes card-hover-effect">
+                                                <i class="ti-star"></i>
+                                                <p>Develop</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="tab-pane" id="final">
                             <div class="row">
                                 <div class="col-sm-12">
                                     <h5 class="info-text"> Are you living in a nice area? </h5>

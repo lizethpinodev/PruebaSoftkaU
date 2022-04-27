@@ -20,6 +20,7 @@ namespace PruebaSoftkaU
                         "~/Scripts/modernizr-*"));
 
             bundles.Add(new ScriptBundle("~/bundles/wizard").Include(
+                      "~/Scripts/aplicacion.js",
                       "~/Scripts/jquery.bootstrap.wizard.js",
                       "~/Scripts/paper-bootstrap-wizard.js"
                       ));
