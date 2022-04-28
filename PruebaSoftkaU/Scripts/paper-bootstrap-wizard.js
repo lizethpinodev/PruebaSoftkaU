@@ -113,7 +113,7 @@ $(document).ready(function () {
             // If it's the last tab then hide the last button and show the finish instead
             if ($current >= $total) {
                 $($wizard).find('.btn-finish').show();
-                $($wizard).find('[name="exit"]').hide();
+                //s$($wizard).find('[name="exit"]').hide();
             } else {
                 $($wizard).find('.btn-next').hide();
                 $($wizard).find('.btn-finish').hide();
