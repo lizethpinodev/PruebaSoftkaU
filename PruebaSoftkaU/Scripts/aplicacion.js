@@ -31,7 +31,8 @@ function validarRespuesta(elem) {
             $('.btn-exit').attr("disabled", "disabled");
             if (level == 5) {
                 registrarPuntaje(puntuacionActual);
-                alert("Felicitaciones has superado exitosamente este reto con una puntuación de: " + puntuacionActual +" puntos.");
+                alert("Felicitaciones has superado exitosamente este reto con una puntuación de: " + puntuacionActual + " puntos.");
+                location.reload();
             }
         }
         else {
